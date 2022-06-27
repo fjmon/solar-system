@@ -3,7 +3,7 @@ import Header from './components/Header';
 import SolarSystem from './components/SolarSystem';
 import Missions from './components/Missions';
 
-class App extends React.Component {
+export default class App extends React.Component {
   render() {
     return (
       <>
@@ -14,5 +14,3 @@ class App extends React.Component {
     );
   }
 }
-
-export default App;
